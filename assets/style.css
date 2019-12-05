@@ -1,0 +1,173 @@
+#myimage {
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#brand {
+    background-color: #4aaaa5;
+    border-top: solid;
+    border-color: #000000;
+    color: #dddddd;
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+
+.active {
+    color: #000000;
+}
+
+.inactive {
+    color: #5c5858;
+}
+
+#footer {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: #dddddd;
+    background-color: #666666;
+    width: 100%;
+    bottom: 0;
+    height: 50px;
+    border-top: 8px solid #4aaaa5;
+    padding-top: 12px;
+    text-align: center;
+}
+
+body {
+    background-image: url("images/spiration-light.png");
+}
+
+.container {
+    background-color: white;
+}
+
+
+
+
+h1 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-small;
+}
+
+button[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#pimg {
+    width: 175px;
+    height: 175px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 16px;
+    width: 175px;
+    background-color: #4aaaa5;
+    color: antiquewhite;
+    text-align: center;
+    padding: 0px;
+    padding-left: 0px;
+    line-height: 2.5;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width:576px) {
+    #myimage {
+        display: block;
+        float: none;
+        margin: 0 auto 20px !important;
+    }
+
+    .container {
+        padding: 20px;
+        border-style: solid;
+        border-width: thin;
+        border-color: lightgray;
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width:648px) {
+    #myimage {
+        *display: block;
+        float: none;
+        margin: 0 auto 20px !important;
+    }
+
+    .container {
+        padding: 20px;
+        border-style: solid;
+        border-width: thin;
+        border-color: lightgray;
+        width: 400px;
+    }
+
+    #brand {
+        width: 100%;
+        text-align: center;
+        margin: 0 !important;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .container {
+        padding: 20px;
+        border-style: solid;
+        border-width: thin;
+        border-color: lightgrey;
+        width: 70%;
+    }
+
+    #brand {
+        width: 100%;
+        text-align: center;
+        margin: 0 !important;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    #brand {
+        background-color: #4aaaa5;
+        border-top: solid;
+        border-color: black;
+        color: #dddddd;
+        padding: 15px;
+    }
+
+    .container {
+        border-style: solid;
+        border-width: thin;
+        border-color: lightgrey;
+    }
+
+}
+
+@media only screen and (min-width:769px) {
+    .container {
+        padding: 20px;
+        border-style: solid;
+        border-width: thin;
+        border-color: lightgrey;
+        width: 450px !important;
+        /* float: left;*/
+        margin-left: 25px !important;
+    }
+
+    #brand {
+        border-style: none !important;
+    }
+}
